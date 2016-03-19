@@ -1,0 +1,136 @@
+
+<!DOCTYPE html>
+<html>
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-58280072-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+<head>
+	<title>PTR</title>
+	<meta name="author" content="Raphaël Chartier" />
+	<meta name="date" content="2016-03-19" />
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<link rel="stylesheet" href="../css/blog.css">
+</head>
+<body>
+	<h1 class="title">GalaxY</h1>
+	<a href="../index.html"><img id= "logo" alt="logo" src="../images/logo.png"></a>
+	<section>
+	<h1>Presentation</h1>
+	<div id="article">
+	<p>GalaxY est un jeu en console d'aventure et d'exploration spatiale.</p>
+	<p>Vous traversez les galaxies a bord de votre vaisseau en passant par differents systemes planetaires generes aleatoirement. Durant le trajet, vous pourrez fouiller et decouvrir des tresors sur les planetes rencontrees, et commercer avec ces dernieres pour recuperer des marchandises de base (nourriture, eau, fuel) mais aussi pour recruter du personnel sur votre vaisseau. En plus de leur commerce, les planetes possedent leur propre regime politique allant de la simple republique a la monarchie en passant par la dictature. Un decodeur pourra alors vous être utile (en cas de langue inconnu par votre equipage), vous pourrez le debloquer dans un systeme de drop aleatoire vous permettant de recuperer aussi des armes, des armures, de l'argent, du fuel, etc.</p>
+	<p>Au fur et a mesure que l'equipage s'agrandit, il faudra adapter votre vaisseau en le personnalisant et en l'ameliorant (taille, capacite de transport, reservoir, armure, degât, etc). Chacun des membres de votre equipage occupera un poste bien precis, vous donnant alors un bonus utile lors de batailles par exemple pour vous defendre (ou attaquer !).</p>
+
+	<h1>Commandes:</h1>
+	<table>
+	<thead>
+	<tr class="header">
+	<th align="left">Commande</th>
+	<th align="left">Abreviation</th>
+	<th align="left">Description</th>
+	</tr>
+	</thead>
+	<tbody>
+	<tr class="odd">
+	<td align="left"><code>liste</code></td>
+	<td align="left"><code>ls</code></td>
+	<td align="left">liste toutes les planetes du systeme planetaire</td>
+	</tr>
+	<tr class="even">
+	<td align="left"><code>aller [argument]</code></td>
+	<td align="left"><code>al</code></td>
+	<td align="left">permet de se deplacer de planete en planete</td>
+	</tr>
+	<tr class="odd">
+	<td align="left"><code>aller suiv</code></td>
+	<td align="left"><code>al s</code></td>
+	<td align="left">se deplace sur la planete suivante</td>
+	</tr>
+	<tr class="even">
+	<td align="left"><code>aller prec</code></td>
+	<td align="left"><code>al p</code></td>
+	<td align="left">se deplace sur la planete precedente</td>
+	</tr>
+	<tr class="odd">
+	<td align="left"><code>fouiller</code></td>
+	<td align="left"><code>f</code></td>
+	<td align="left">fouille la planete actuelle</td>
+	</tr>
+	<tr class="even">
+	<td align="left"><code>info [argument]</code></td>
+	<td align="left"><code>i</code></td>
+	<td align="left">donne des informations</td>
+	</tr>
+	<tr class="odd">
+	<td align="left"><code>info</code></td>
+	<td align="left"><code>i</code></td>
+	<td align="left">informations de la planete actuelle</td>
+	</tr>
+	<tr class="even">
+	<td align="left"><code>info vaisseau</code></td>
+	<td align="left"><code>info v</code></td>
+	<td align="left">informations de votre vaisseau</td>
+	</tr>
+	<tr class="odd">
+	<td align="left"><code>info equipage</code></td>
+	<td align="left"><code>info e</code></td>
+	<td align="left">informations sur votre equipage</td>
+	</tr>
+	<tr class="even">
+	<td align="left"><code>entrer</code></td>
+	<td align="left"><code>e</code></td>
+	<td align="left">permet de passer au prochain systeme planetaire</td>
+	</tr>
+	<tr class="odd">
+	<td align="left"><code>commerce</code></td>
+	<td align="left"><code>c</code></td>
+	<td align="left">permet d'acheter du materiel</td>
+	</tr>
+	<tr class="even">
+	<td align="left"><code>virer</code></td>
+	<td align="left"><code>v</code></td>
+	<td align="left">permet de virer un membre de l'equipage</td>
+	</tr>
+	<tr class="odd">
+	<td align="left"><code>recuperer</code></td>
+	<td align="left"><code>g</code></td>
+	<td align="left">permet de recuperer un objet dans sa reserve</td>
+	</tr>
+	<tr class="even">
+	<td align="left"><code>quitter</code></td>
+	<td align="left"><code>q</code></td>
+	<td align="left">quitte la partie en cours</td>
+	</tr>
+	</tbody>
+	</table>
+	
+	<h1>Images</h1>	
+	<h4>Le menu:</h4>
+	<p><a href="../images/menu.png"><img src="../images/menu.png" alt="GalaxY" width="400" height="600" /></a></p>
+	<h4>Informations sur les planetes:</h4>
+	<p><a href="../images/iplanetes.png"><img src="../images/iplanetes.png" alt="GalaxY" width="400" height="600" /></a></p>
+	<h4>Informations sur l'equipage du vaisseau:</h4>
+	<p><a href="../images/infoequipage.png"><img src="../images/infoequipage.png" alt="GalaxY" width="400" height="600" /></a></p>
+	<h4>Informations sur le vaisseau:</h4>
+	<p><a href="../images/infovaisseau.png"><img src="../images/infovaisseau.png" alt="GalaxY" width="400" height="600" /></a></p>
+	<h4>Le marche:</h4>
+	<p><a href="../images/marche.png"><img src="../images/marche.png" alt="GalaxY" width="400" height="600" /></a></p>
+
+	<h1>Liens</h1>
+	<a href="https://github.com/LeBuG63/GalaxY">Github</p>
+	</section>
+	</div>
+	<footer>
+		<a href="../index.html">Index</p>
+	</footer>
+</body>
+</head>
