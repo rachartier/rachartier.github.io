@@ -1,0 +1,66 @@
+
+<!DOCTYPE html>
+<html>
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-58280072-1', 'auto');
+  ga('send', 'pageview');
+</script>
+
+<head>
+	<title>PTR</title>
+	<meta name="author" content="Raphaël Chartier" />
+	<meta name="date" content="2016-03-25" />
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<link rel="stylesheet" href="../css/blog.css">
+</head>
+<body>
+	<h1 class="title">Tiny Virtual Machine</h1>
+	<a href="../index.html"><img id= "logo" alt="logo" src="../images/logo.png"></a>
+	<section>
+    <h1>Presentation</h1>
+	
+    <div id="article">
+	<p>Tiny Virtual Machine est un programme qui, en lisant un fichier source, va interpreter les commandes donnees par ce-dit fichier.</p>
+	<p>Chaque commande est constituée de quatre parties: une est l'opération, la deuxieme est l'emplacement dans le registre (0x00 - 0xC), la troisieme et quatrieme sont les nombres affectes par l'operation</p>
+	
+	<p>Les operations:</p>
+	<ul>
+		<li>0x00: les additions</li>
+		<li>0x01: les soustractions</li>
+		<li>0x02: les multiplications</li>
+		<li>0x03: les divisions</li>
+		<li>0x04: l'opérateur logique ET</li>
+		<li>0x05: l'opérateur logique OU</li>
+		<li>0x06: l'opérateur logique OU EXCLUSIF</li>
+	</ul>
+
+	<p>Methode d'affichage:</p>
+	<ul>
+		<li>0x10: affiche un entier</li>
+		<li>0x11: affiche une lettre</li>
+	</ul>
+	
+    <h1>Exemple</h1>
+	<p>Creez un fichier vide a l'endroit ou se trouve le fichier source et nommez le "<i>code</i>". Avec un editeur hexadecimal (comme HexEdit), entrez le code suivant:</p>
+	<p><b>00 00 0F 36 01 01 5A 2F 02 02 4B 8C 03 03 FF 0F 10 00 10 01 10 02 10 03</b></p>
+	<p><i>"00 00 0F 36", qui est la premiere operation a effectuer, pourrait se traduire par: "je veux une addition que je place dans le registre numero 0x00 et cette addition est "0F + 36" "</i></p>
+	<p>Compilez le programme: <i>gcc tinyvirtualmachine.c -o tinyvirtualmachine -Wall -Wextra</i></p>
+    <p>Executez ensuite ce programme: <i>./tinyvirtualmachine "code"</i></p>
+	
+	<h1>Lien</h1>
+	<a href="https://github.com/LeBuG63/Tiny-Virtual-Machine">Github</a>.</p>
+    
+    <h1>Code source:</h1>
+    	<script src="https://gist.github.com/LeBuG63/50fb6eaae7d4c7a18794.js"></script>
+    </div>
+	<footer>
+		<a href="../index.html">Index</p>
+	</footer>
+	</section>
+</body>
+</head>
