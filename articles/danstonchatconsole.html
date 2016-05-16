@@ -27,6 +27,11 @@
 	<h1>Presentation</h1>
 	<div id="article">
 	<p>DansTonChatConsole permet de voir les quotes du site "danstonchat.com" dans votre terminal.</p>
+	<h3>Compilation</h3>
+	<p></p>Si vous n'avez pas "<i>libcurl</i>" d'installer, entrez cette commande: <b>sudo apt-get install libcurl3-dev</b></p>
+	<p></p>Pour compiler:
+	<p><i>gcc dtcconsole.c $(pkg-config --libs --cflags libcurl) -Wall -Wextra -o dtcconsole</i></p>
+	
 	<h3>Commandes</h3>
 	<ul>
 		<li>./dtcconsole -random (-r)[N]: affiche N quotes aléatoire</li>
