@@ -68,6 +68,20 @@
     </item>
     
     <item>
+      <title>Tiny ASM Interpreter</title>
+      <link>http://rachartier.github.io/projet/tiny-asm-interpreter/</link>
+      <pubDate>Sun, 20 May 2018 11:22:23 +0200</pubDate>
+      
+      <guid>http://rachartier.github.io/projet/tiny-asm-interpreter/</guid>
+      <description>Un intépreteur d&amp;rsquo;un langage d&amp;rsquo;assembleur fortement simplifié.
+Utilisation:
+./tinyasminterpreter &amp;lt;nom fichier&amp;gt;  Il y a 6 registres (R1-6).
+Ajouter un &amp;lsquo;#&amp;rsquo; devant un nombre signifie que ce qui suit sera utilisé comme un entier
+ add #10,R1 ajoutera le nombre 10 dans le registre R1  Pour acceder un espace mémoire, il suffit de faire: [x], où x represente l&amp;rsquo;emplacement mémoire (de 0 à 32768):
+ add #10,[50] ajoutera le nombre 10 à l&amp;rsquo;emplacement mémoire 50  Pour créer une fonction, il suffit de faire comme un label, puis à la fin de la fonction mettre l&amp;rsquo;instruction ret, qui permettra de revenir à l&amp;rsquo;appel de la fonction + 1 ligne.</description>
+    </item>
+    
+    <item>
       <title>Truth Table</title>
       <link>http://rachartier.github.io/code/truth-table/</link>
       <pubDate>Tue, 07 Nov 2017 23:00:35 +0200</pubDate>
@@ -87,18 +101,6 @@ gcc truthtable.c -Wall -Wextra -std=c11 -lm -o ttable ./ttable &amp;quot;express
       <guid>http://rachartier.github.io/code/pendule-double/</guid>
       <description>Pendule Double est la simulation de &amp;ldquo;l&amp;rsquo;aleatoire chaotique&amp;rdquo; en utilisant un pendule relie a un dernier, qui est fixe.
 Compilation gcc doublependulum.c -o doublependulum -lm -Wall -Wextra -lSDL2 -lSDL2main  Commandes  a: diminue la taille du premier pendule | z: augmente la taille du premier pendule e: diminue la taille du second pendule | r: augmente la taille du second pendule q: diminue la masse du premier pendule | s: augmente la masse du premier pendule d: diminue la masse du second pendule | f: augmente la masse du second pendule i: affiche les informations des pendules dans la console n: permet de reinitialiser aléatoirement les pendules  Vidéo Vidéo de démonstration</description>
-    </item>
-    
-    <item>
-      <title>Tiny Virtual Machine</title>
-      <link>http://rachartier.github.io/code/tiny-virtual-machine/</link>
-      <pubDate>Wed, 05 Oct 2016 23:00:08 +0200</pubDate>
-      
-      <guid>http://rachartier.github.io/code/tiny-virtual-machine/</guid>
-      <description>Tiny Virtual Machine est un programme qui, en lisant un fichier source, va interpreter les commandes donnees par le-dit fichier.
-Chaque commande est constituee de quatre parties: une est l&amp;rsquo;opération, la deuxieme est l&amp;rsquo;emplacement dans le registre (0x00 - 0x10), la troisieme et quatrieme sont les nombres affectes par l&amp;rsquo;operation
-Les operations:
- 0x01: les additions 0x02: les soustractions 0x03: les multiplications 0x04: les divisions 0x05: l&amp;rsquo;opérateur logique ET 0x06: l&amp;rsquo;opérateur logique OU 0x07: l&amp;rsquo;opérateur logique OU EXCLUSIF 0x08: le modulo (%) 0x09: decalage de bits vers la gauche 0x0A: decalage de bits vers la droite 0x0B: l&amp;rsquo;operateur NON  Methodes d&amp;rsquo;affichage:</description>
     </item>
     
     <item>

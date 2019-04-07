@@ -35,18 +35,6 @@ Compilation gcc doublependulum.c -o doublependulum -lm -Wall -Wextra -lSDL2 -lSD
     </item>
     
     <item>
-      <title>Tiny Virtual Machine</title>
-      <link>http://rachartier.github.io/code/tiny-virtual-machine/</link>
-      <pubDate>Wed, 05 Oct 2016 23:00:08 +0200</pubDate>
-      
-      <guid>http://rachartier.github.io/code/tiny-virtual-machine/</guid>
-      <description>Tiny Virtual Machine est un programme qui, en lisant un fichier source, va interpreter les commandes donnees par le-dit fichier.
-Chaque commande est constituee de quatre parties: une est l&amp;rsquo;opération, la deuxieme est l&amp;rsquo;emplacement dans le registre (0x00 - 0x10), la troisieme et quatrieme sont les nombres affectes par l&amp;rsquo;operation
-Les operations:
- 0x01: les additions 0x02: les soustractions 0x03: les multiplications 0x04: les divisions 0x05: l&amp;rsquo;opérateur logique ET 0x06: l&amp;rsquo;opérateur logique OU 0x07: l&amp;rsquo;opérateur logique OU EXCLUSIF 0x08: le modulo (%) 0x09: decalage de bits vers la gauche 0x0A: decalage de bits vers la droite 0x0B: l&amp;rsquo;operateur NON  Methodes d&amp;rsquo;affichage:</description>
-    </item>
-    
-    <item>
       <title>SmartList</title>
       <link>http://rachartier.github.io/code/smartlist/</link>
       <pubDate>Wed, 05 Oct 2016 22:59:58 +0200</pubDate>
@@ -67,6 +55,18 @@ Les operations:
 Si vous n&amp;rsquo;avez pas &amp;ldquo;libcurl&amp;rdquo; d&amp;rsquo;installer, entrez cette commande:
 sudo apt-get install libcurl3-dev  Pour compiler:
 gcc dtcconsole.c $(pkg-config --libs --cflags libcurl) -Wall -Wextra -o dtcconsole  Commandes  ./dtcconsole --random (-r)[N]: affiche N quotes aléatoire ./dtcconsole --last (-l)[N]: affiche les N dernière quotes ./dtcconsole --quote (-q)[ID]: affiche la quote souhaite  Code #include &amp;lt;stdio.h&amp;gt;#include &amp;lt;stdlib.h&amp;gt;#include &amp;lt;string.</description>
+    </item>
+    
+    <item>
+      <title>Tiny Virtual Machine</title>
+      <link>http://rachartier.github.io/code/tiny-virtual-machine/</link>
+      <pubDate>Tue, 30 Jun 2015 23:00:08 +0200</pubDate>
+      
+      <guid>http://rachartier.github.io/code/tiny-virtual-machine/</guid>
+      <description>Tiny Virtual Machine est un programme qui, en lisant un fichier source, va interpreter les commandes donnees par le-dit fichier.
+Chaque commande est constituee de quatre parties: une est l&amp;rsquo;opération, la deuxieme est l&amp;rsquo;emplacement dans le registre (0x00 - 0x10), la troisieme et quatrieme sont les nombres affectes par l&amp;rsquo;operation
+Les operations:
+ 0x01: les additions 0x02: les soustractions 0x03: les multiplications 0x04: les divisions 0x05: l&amp;rsquo;opérateur logique ET 0x06: l&amp;rsquo;opérateur logique OU 0x07: l&amp;rsquo;opérateur logique OU EXCLUSIF 0x08: le modulo (%) 0x09: decalage de bits vers la gauche 0x0A: decalage de bits vers la droite 0x0B: l&amp;rsquo;operateur NON  Methodes d&amp;rsquo;affichage:</description>
     </item>
     
     <item>
