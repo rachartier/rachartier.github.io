@@ -72,6 +72,16 @@ L&amp;rsquo;application se veut être temps réel, et utilise une Kinect pour fa
     </item>
     
     <item>
+      <title>ColorfullBinaries</title>
+      <link>http://rachartier.github.io/code/colorfullbinaries/</link>
+      <pubDate>Sat, 22 Sep 2018 14:48:29 +0200</pubDate>
+      
+      <guid>http://rachartier.github.io/code/colorfullbinaries/</guid>
+      <description>Permet de donner de la couleurs à vos fichier binaire. Créer une &amp;ldquo;image&amp;rdquo; dans un émulateur de terminal d&amp;rsquo;un fichier binaire.
+Utilisation gcc main.c -Wall -Wextra ./a.out -o /bin/ls -w 32 -h 32  Commandes  -o &amp;lt;filename&amp;gt; le fichier à ouvrir -w &amp;lt;width&amp;gt; régle la largeur de la sortie -h &amp;lt;height&amp;gt; régle la hauteur de la sortie -c &amp;lt;char&amp;gt; modifie le charactère de la sortie  Images Code #include &amp;lt;stdio.</description>
+    </item>
+    
+    <item>
       <title>Tiny ASM Interpreter</title>
       <link>http://rachartier.github.io/projet/tiny-asm-interpreter/</link>
       <pubDate>Sun, 20 May 2018 11:22:23 +0200</pubDate>
@@ -105,17 +115,6 @@ gcc truthtable.c -Wall -Wextra -std=c11 -lm -o ttable ./ttable &amp;quot;express
       <guid>http://rachartier.github.io/code/pendule-double/</guid>
       <description>Pendule Double est la simulation de &amp;ldquo;l&amp;rsquo;aleatoire chaotique&amp;rdquo; en utilisant un pendule relie a un dernier, qui est fixe.
 Compilation gcc doublependulum.c -o doublependulum -lm -Wall -Wextra -lSDL2 -lSDL2main  Commandes  a: diminue la taille du premier pendule | z: augmente la taille du premier pendule e: diminue la taille du second pendule | r: augmente la taille du second pendule q: diminue la masse du premier pendule | s: augmente la masse du premier pendule d: diminue la masse du second pendule | f: augmente la masse du second pendule i: affiche les informations des pendules dans la console n: permet de reinitialiser aléatoirement les pendules  Vidéo Vidéo de démonstration</description>
-    </item>
-    
-    <item>
-      <title>SmartList</title>
-      <link>http://rachartier.github.io/code/smartlist/</link>
-      <pubDate>Wed, 05 Oct 2016 22:59:58 +0200</pubDate>
-      
-      <guid>http://rachartier.github.io/code/smartlist/</guid>
-      <description>Un programme qui cherche et complete une suite logique dans une liste de nombres donnes.
- Il faut tout d&amp;rsquo;abord executer le programme via &amp;ldquo;./smartlist&amp;rdquo; Ensuite, il faut entrer un nombre (N), ce qui permettra d&amp;rsquo;ecrire N termes. Enfin, il faut mettre une chaine de caracteres contenant la suite. Exemples:  &amp;ldquo;0 1 2&amp;rdquo; &amp;ldquo;9 4&amp;rdquo; &amp;ldquo;100 50 25&amp;rdquo; &amp;ldquo;1 2 4&amp;rdquo; &amp;ldquo;1 1&amp;rdquo; &amp;hellip;   Execution:
-./smartlist 10 &amp;quot;1 2 3&amp;quot; .</description>
     </item>
     
   </channel>

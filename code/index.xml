@@ -7,10 +7,20 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>fr-fr</language>
     <copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
-    <lastBuildDate>Tue, 07 Nov 2017 23:00:35 +0200</lastBuildDate>
+    <lastBuildDate>Sat, 22 Sep 2018 14:48:29 +0200</lastBuildDate>
     
 	<atom:link href="http://rachartier.github.io/code/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>ColorfullBinaries</title>
+      <link>http://rachartier.github.io/code/colorfullbinaries/</link>
+      <pubDate>Sat, 22 Sep 2018 14:48:29 +0200</pubDate>
+      
+      <guid>http://rachartier.github.io/code/colorfullbinaries/</guid>
+      <description>Permet de donner de la couleurs à vos fichier binaire. Créer une &amp;ldquo;image&amp;rdquo; dans un émulateur de terminal d&amp;rsquo;un fichier binaire.
+Utilisation gcc main.c -Wall -Wextra ./a.out -o /bin/ls -w 32 -h 32  Commandes  -o &amp;lt;filename&amp;gt; le fichier à ouvrir -w &amp;lt;width&amp;gt; régle la largeur de la sortie -h &amp;lt;height&amp;gt; régle la hauteur de la sortie -c &amp;lt;char&amp;gt; modifie le charactère de la sortie  Images Code #include &amp;lt;stdio.</description>
+    </item>
     
     <item>
       <title>Truth Table</title>
