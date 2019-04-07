@@ -1,71 +1,16 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Raphaël CHARTIER</title>
-    <link>http://rachartier.github.io/</link>
-    <description>Recent content on Raphaël CHARTIER</description>
+    <title>Codes on Raphaël CHARTIER</title>
+    <link>http://rachartier.github.io/code/</link>
+    <description>Recent content in Codes on Raphaël CHARTIER</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>fr-fr</language>
     <copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
-    <lastBuildDate>Sun, 07 Apr 2019 00:36:29 +0200</lastBuildDate>
+    <lastBuildDate>Tue, 07 Nov 2017 23:00:35 +0200</lastBuildDate>
     
-	<atom:link href="http://rachartier.github.io/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://rachartier.github.io/code/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>Portfolio</title>
-      <link>http://rachartier.github.io/portfolio/</link>
-      <pubDate>Sun, 07 Apr 2019 00:36:29 +0200</pubDate>
-      
-      <guid>http://rachartier.github.io/portfolio/</guid>
-      <description> EN COURS DE REDACTION </description>
-    </item>
-    
-    <item>
-      <title>A Propos</title>
-      <link>http://rachartier.github.io/a-propos/</link>
-      <pubDate>Sun, 07 Apr 2019 00:35:47 +0200</pubDate>
-      
-      <guid>http://rachartier.github.io/a-propos/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>About</title>
-      <link>http://rachartier.github.io/about/</link>
-      <pubDate>Sat, 06 Apr 2019 22:20:59 +0200</pubDate>
-      
-      <guid>http://rachartier.github.io/about/</guid>
-      <description>coucou</description>
-    </item>
-    
-    <item>
-      <title>Dynamo</title>
-      <link>http://rachartier.github.io/projet/dynamo/</link>
-      <pubDate>Wed, 06 Feb 2019 23:56:47 +0200</pubDate>
-      
-      <guid>http://rachartier.github.io/projet/dynamo/</guid>
-      <description> EN COURS DE REDACTION </description>
-    </item>
-    
-    <item>
-      <title>Medusa</title>
-      <link>http://rachartier.github.io/projet/medusa/</link>
-      <pubDate>Fri, 18 Jan 2019 23:56:42 +0200</pubDate>
-      
-      <guid>http://rachartier.github.io/projet/medusa/</guid>
-      <description> EN COURS DE REDACTION </description>
-    </item>
-    
-    <item>
-      <title>Pokemon Du Pauvre</title>
-      <link>http://rachartier.github.io/projet/pokemon-du-pauvre/</link>
-      <pubDate>Wed, 14 Nov 2018 22:57:02 +0200</pubDate>
-      
-      <guid>http://rachartier.github.io/projet/pokemon-du-pauvre/</guid>
-      <description>Jeu ressemblant aux fameux jeux Pokemon, ce &amp;ldquo;pokemon du pauvre&amp;rdquo; vise à creer une expérience simple. Le joueur peut consulter la liste de nombreux pokemons dans le pokdex, visiter des terrains générés aléatoirements, écouter la musique des premiers jeux tout en combattant des pokemons adverses pour au final les capturer. Le jeu dispose aussi de sauvegardes et de chargement de ces dernières.
- Fait en 7 semaines lors d&amp;rsquo;un projet de programmation orientée objet en 2éme année d&amp;rsquo;IUT Informartique Fait en JavaFX Respecte au maximum le principe SOLID Musiques originales Niveaux générés aléatoiements Toute la 1ère génération de Pokemon est présente Sauvegarde/chargement  Lien Github</description>
-    </item>
     
     <item>
       <title>Truth Table</title>
@@ -110,6 +55,39 @@ Les operations:
       <description>Un programme qui cherche et complete une suite logique dans une liste de nombres donnes.
  Il faut tout d&amp;rsquo;abord executer le programme via &amp;ldquo;./smartlist&amp;rdquo; Ensuite, il faut entrer un nombre (N), ce qui permettra d&amp;rsquo;ecrire N termes. Enfin, il faut mettre une chaine de caracteres contenant la suite. Exemples:  &amp;ldquo;0 1 2&amp;rdquo; &amp;ldquo;9 4&amp;rdquo; &amp;ldquo;100 50 25&amp;rdquo; &amp;ldquo;1 2 4&amp;rdquo; &amp;ldquo;1 1&amp;rdquo; &amp;hellip;   Execution:
 ./smartlist 10 &amp;quot;1 2 3&amp;quot; .</description>
+    </item>
+    
+    <item>
+      <title>DansTonChatConsole</title>
+      <link>http://rachartier.github.io/code/danstonchatconsole/</link>
+      <pubDate>Sat, 25 Jul 2015 23:00:14 +0200</pubDate>
+      
+      <guid>http://rachartier.github.io/code/danstonchatconsole/</guid>
+      <description>DansTonChatConsole permet de voir les quotes du site &amp;ldquo;danstonchat.com&amp;rdquo; dans votre terminal. Compilation
+Si vous n&amp;rsquo;avez pas &amp;ldquo;libcurl&amp;rdquo; d&amp;rsquo;installer, entrez cette commande:
+sudo apt-get install libcurl3-dev  Pour compiler:
+gcc dtcconsole.c $(pkg-config --libs --cflags libcurl) -Wall -Wextra -o dtcconsole  Commandes  ./dtcconsole --random (-r)[N]: affiche N quotes aléatoire ./dtcconsole --last (-l)[N]: affiche les N dernière quotes ./dtcconsole --quote (-q)[ID]: affiche la quote souhaite  Code #include &amp;lt;stdio.h&amp;gt;#include &amp;lt;stdlib.h&amp;gt;#include &amp;lt;string.</description>
+    </item>
+    
+    <item>
+      <title>Mutation</title>
+      <link>http://rachartier.github.io/code/mutation/</link>
+      <pubDate>Mon, 23 Mar 2015 22:59:49 +0200</pubDate>
+      
+      <guid>http://rachartier.github.io/code/mutation/</guid>
+      <description>Mutation est un programme qui calcule le gène gagant parmit N gènes.
+Il y a N gènes, admettons par exemple qu&amp;rsquo;il y en a 100.
+Chaque gène a donc 1% de chance d&amp;rsquo;être selectionné et d&amp;rsquo;être &amp;ldquo;sauvegardé&amp;rdquo; pour une prochaine génération de calcule. Plus le gène X est sauvegardé, plus il a de chance d&amp;rsquo;être tiré à la prochaine génération et donc d&amp;rsquo;être encore plus présent au fil des génération.</description>
+    </item>
+    
+    <item>
+      <title>Horloge</title>
+      <link>http://rachartier.github.io/code/horloge/</link>
+      <pubDate>Thu, 19 Feb 2015 22:59:53 +0200</pubDate>
+      
+      <guid>http://rachartier.github.io/code/horloge/</guid>
+      <description>Une simple horloge qui vous donne l&amp;rsquo;heure en toutes lettres. Elle donne les secondes, minutes et heures en anglais.
+Image Code #include &amp;lt;stdio.h&amp;gt;#include &amp;lt;stdlib.h&amp;gt;#include &amp;lt;time.h&amp;gt;#include &amp;lt;string.h&amp;gt;#include &amp;lt;math.h&amp;gt;#include &amp;lt;stdbool.h&amp;gt; struct s_position { int start; int end; }; struct s_digits { int decade; int unit; }; enum e_place { UNITS, MINUTES, HOURS }; typedef struct s_position POSITION; typedef struct s_digits DIGITS; typedef enum e_place PLACE; const char *digits[3] = { &amp;#34;TWENTYTHIRTYFORTYFIFTYZEROONETWOTHREEFORFIVESIXSEVENEIGHTNINETENELEVENTWELVEFIFTEEN SECONDS&amp;#34;, &amp;#34;TWENTYTHIRTYFORTYFIFTYZEROONETWOTHREEFORFIVESIXSEVENEIGHTNINETENELEVENTWELVEFIFTEEN MINUTES&amp;#34;, &amp;#34;ZEROONETWOTHREEFORFIVESIXSEVENEIGHTNINETENELEVENTWELVE HOURS&amp;#34; }; const char *numToWord[19] = { &amp;#34;ZERO&amp;#34;, &amp;#34;ONE&amp;#34;, &amp;#34;TWO&amp;#34;, &amp;#34;THREE&amp;#34;, &amp;#34;FOR&amp;#34;, &amp;#34;FIVE&amp;#34;, &amp;#34;SIX&amp;#34;, &amp;#34;SEVEN&amp;#34;, &amp;#34;EIGHT&amp;#34;, &amp;#34;NINE&amp;#34;, &amp;#34;TEN&amp;#34;, &amp;#34;ELEVEN&amp;#34;, &amp;#34;TWELVE&amp;#34;, &amp;#34;TWENTY&amp;#34;, &amp;#34;THIRTY&amp;#34;, &amp;#34;FORTY&amp;#34;, &amp;#34;FIFTY&amp;#34;, &amp;#34;TEEN&amp;#34;, &amp;#34;FIFTEEN&amp;#34; }; void wait(int time) { clock_t end = clock() + (time * CLOCKS_PER_SEC); while(clock()&amp;lt; end); } POSITION get_wordPos(const char *word, PLACE where, bool decade) { POSITION position = {.</description>
     </item>
     
   </channel>
