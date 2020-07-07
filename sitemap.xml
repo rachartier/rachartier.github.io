@@ -23,11 +23,6 @@
   </url>
   
   <url>
-    <loc>http://rachartier.github.io/projets/hal/</loc>
-    <lastmod>2020-07-07T00:00:00+02:00</lastmod>
-  </url>
-  
-  <url>
     <loc>http://rachartier.github.io/portfolio/</loc>
     <lastmod>2019-04-07T00:36:29+02:00</lastmod>
   </url>
@@ -129,6 +124,10 @@
   
   <url>
     <loc>http://rachartier.github.io/categories/</loc>
+  </url>
+  
+  <url>
+    <loc>http://rachartier.github.io/projets/hal/</loc>
   </url>
   
   <url>

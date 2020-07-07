@@ -36,16 +36,6 @@ Il se décompose en 4 pages:
     </item>
     
     <item>
-      <title>HAL</title>
-      <link>http://rachartier.github.io/projets/hal/</link>
-      <pubDate>Tue, 07 Jul 2020 00:00:00 +0200</pubDate>
-      
-      <guid>http://rachartier.github.io/projets/hal/</guid>
-      <description>Lien Github
-Contents  Intro  Prérequis QuickStart  Utilisation du serveur avec Docker     Choix Installations  Serveur  Docker  Exigence Installation avec Docker   Installation Manuelle  Installation     Client  Installation Manuelle     Serveur Docker Documentation  Docker-Compose du serveur  Volumes du serveur Variables d&amp;rsquo;environnement   Mise à jour du Docker InfluxDB  Présentation Installation InfluxDB Volumes InfluxDB InfluxDB API InfluxQL Liaison avec HAL   Grafana  Présentation Grafana Installation Grafana Volumes Grafana Présentation rapide de l&amp;rsquo;interface  Data Source   Grafana et InfluxQL   Tout-en-un   Serveur Installation Manuelle  Installation Manuelle Linux Installation Manuelle Windows   Client Installation  Installation Manuelle Linux Installation Manuelle Windows Configuration  Comprendre config.</description>
-    </item>
-    
-    <item>
       <title>Portfolio</title>
       <link>http://rachartier.github.io/portfolio/</link>
       <pubDate>Sun, 07 Apr 2019 00:36:29 +0200</pubDate>
@@ -110,6 +100,16 @@ Contents  Intro  Prérequis QuickStart  Utilisation du serveur avec Docker     C
 L&amp;rsquo;utilisation se fait via la ligne de commande:
 gcc truthtable.c -Wall -Wextra -std=c11 -lm -o ttable./ttable &amp;quot;expression&amp;quot;L&amp;rsquo;expression doit être une expression ecrite via la notation polonaise inverse comme suit:
  &amp;ldquo;&amp;lt;variable_1&amp;gt; [variable_2] &amp;lt;opérateur logique&amp;gt;&amp;rdquo; La répétition de ce processus permet de former une expression logique. Le programme va ensuite sortir la table de vérité corespondante, avec les noms des variables transmises.</description>
+    </item>
+    
+    <item>
+      <title>Pendule Double</title>
+      <link>http://rachartier.github.io/codes/pendule-double/</link>
+      <pubDate>Mon, 23 Jan 2017 23:00:18 +0200</pubDate>
+      
+      <guid>http://rachartier.github.io/codes/pendule-double/</guid>
+      <description>Pendule Double est la simulation de &amp;ldquo;l&amp;rsquo;aleatoire chaotique&amp;rdquo; en utilisant un pendule relie a un dernier, qui est fixe.
+Compilation gcc doublependulum.c -o doublependulum -lm -Wall -Wextra -lSDL2 -lSDL2mainCommandes  a: diminue la taille du premier pendule | z: augmente la taille du premier pendule e: diminue la taille du second pendule | r: augmente la taille du second pendule q: diminue la masse du premier pendule | s: augmente la masse du premier pendule d: diminue la masse du second pendule | f: augmente la masse du second pendule i: affiche les informations des pendules dans la console n: permet de reinitialiser aléatoirement les pendules  Vidéo Vidéo de démonstration</description>
     </item>
     
   </channel>

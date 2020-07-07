@@ -36,16 +36,6 @@ Il se décompose en 4 pages:
     </item>
     
     <item>
-      <title>HAL</title>
-      <link>http://rachartier.github.io/projets/hal/</link>
-      <pubDate>Tue, 07 Jul 2020 00:00:00 +0200</pubDate>
-      
-      <guid>http://rachartier.github.io/projets/hal/</guid>
-      <description>Lien Github
-Contents  Intro  Prérequis QuickStart  Utilisation du serveur avec Docker     Choix Installations  Serveur  Docker  Exigence Installation avec Docker   Installation Manuelle  Installation     Client  Installation Manuelle     Serveur Docker Documentation  Docker-Compose du serveur  Volumes du serveur Variables d&amp;rsquo;environnement   Mise à jour du Docker InfluxDB  Présentation Installation InfluxDB Volumes InfluxDB InfluxDB API InfluxQL Liaison avec HAL   Grafana  Présentation Grafana Installation Grafana Volumes Grafana Présentation rapide de l&amp;rsquo;interface  Data Source   Grafana et InfluxQL   Tout-en-un   Serveur Installation Manuelle  Installation Manuelle Linux Installation Manuelle Windows   Client Installation  Installation Manuelle Linux Installation Manuelle Windows Configuration  Comprendre config.</description>
-    </item>
-    
-    <item>
       <title>Dynamo</title>
       <link>http://rachartier.github.io/projets/dynamo/</link>
       <pubDate>Wed, 06 Feb 2019 23:56:47 +0200</pubDate>
@@ -112,6 +102,17 @@ Le principe est vraiment très simple, il suffit d’entrer des commandes pour f
       <guid>http://rachartier.github.io/projets/blue-and-white/</guid>
       <description>Blue and White est un jeu où le but est de remplir toutes les cases en bleu, c&amp;rsquo;est simple de principe, mais dur de réalisation. Dès que vous cliquez sur une &amp;ldquo;case&amp;rdquo;, cette case devient imédiatement bleu ainsi que celle de gauche, droite, haut et bas. Mais le problème, c&amp;rsquo;est que si cette case est déjà bleu, elle redevient normale, c&amp;rsquo;est-à-dire blanche.
 Vous pouvez choisir la taille de la map (1 à 100), afficher le temps, voir le nombre de coups dont vous avez eu besoin pour gagner, générer aléatoirement une map.</description>
+    </item>
+    
+    <item>
+      <title>ASCII_PhysiX</title>
+      <link>http://rachartier.github.io/projets/ascii_physix/</link>
+      <pubDate>Sun, 14 Apr 2013 22:57:58 +0200</pubDate>
+      
+      <guid>http://rachartier.github.io/projets/ascii_physix/</guid>
+      <description>ASCII_Physix est une sorte de &amp;ldquo;simulation&amp;rdquo; sous un émulateur de terminal. Il permet de poser différents blocs avec différentes caractéristiques disposés en 3 classes:
+ BLOCKS, qui contient des blocs tels que des grilles, blocs durs&amp;hellip; DUST, qui contient la poussiéres, la terre&amp;hellip;  Il existe un fichier .opt pour modifier les caractéristiques de la map. On peut changer sa taille, le caractère des murs&amp;hellip;
+Lien Github</description>
     </item>
     
   </channel>
